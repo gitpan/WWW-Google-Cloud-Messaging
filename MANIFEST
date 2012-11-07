@@ -17,10 +17,11 @@ lib/WWW/Google/Cloud/Messaging/Response/ResultSet.pm
 Makefile.PL
 MANIFEST			This list of files
 META.yml
-README
+README.pod
 t/00_compile.t
 t/01_new.t
 t/02_send.t
+t/03_constants.t
 xt/01_podspell.t
 xt/02_pod.t
 xt/03_pod-coverage.t
