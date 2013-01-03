@@ -1,0 +1,77 @@
+{
+   "abstract" : "Google Cloud Messaging (GCM) Client Library",
+   "author" : [
+      "xaicron E<lt>xaicron@cpan.orgE<gt>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "WWW-Google-Cloud-Messaging",
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "t",
+         "xt"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::Fake::HTTPD" : "0.03",
+            "Test::Flatten" : "0.09",
+            "Test::More" : "0.98",
+            "Test::SharedFork" : "0.2"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.38"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Class::Accessor::Lite" : "0",
+            "HTTP::Request" : "0",
+            "JSON" : "0",
+            "LWP::Protocol::https" : "0",
+            "LWP::UserAgent" : "0",
+            "perl" : "5.008001"
+         }
+      }
+   },
+   "provides" : {
+      "WWW::Google::Cloud::Messaging" : {
+         "file" : "lib/WWW/Google/Cloud/Messaging.pm",
+         "version" : "0.03"
+      },
+      "WWW::Google::Cloud::Messaging::Constants" : {
+         "file" : "lib/WWW/Google/Cloud/Messaging/Constants.pm",
+         "version" : 0
+      },
+      "WWW::Google::Cloud::Messaging::Response" : {
+         "file" : "lib/WWW/Google/Cloud/Messaging/Response.pm",
+         "version" : 0
+      },
+      "WWW::Google::Cloud::Messaging::Response::Result" : {
+         "file" : "lib/WWW/Google/Cloud/Messaging/Response/Result.pm",
+         "version" : 0
+      },
+      "WWW::Google::Cloud::Messaging::Response::ResultSet" : {
+         "file" : "lib/WWW/Google/Cloud/Messaging/Response/ResultSet.pm",
+         "version" : 0
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.03"
+}

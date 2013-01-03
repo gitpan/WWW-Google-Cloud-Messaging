@@ -36,6 +36,10 @@ JSON
 API
 Str
 ua
+IDs
+multicast
+offline
+serializable
 
 # personal section
 xaicron
