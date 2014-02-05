@@ -15,7 +15,7 @@ use Class::Accessor::Lite (
 
 use WWW::Google::Cloud::Messaging::Response;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 our $API_URL = 'https://android.googleapis.com/gcm/send';
 
@@ -100,6 +100,7 @@ which implements web application servers.
 Currently this supports JSON API.
 
 SEE ALSO L<< http://developer.android.com/guide/google/gcm/gcm.html#send-msg >>.
+
 =head1 METHODS
 
 =head2 new(%args)
